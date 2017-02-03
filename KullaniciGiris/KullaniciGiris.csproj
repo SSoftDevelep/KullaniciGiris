@@ -106,10 +106,34 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BasariliGiris.aspx" />
+    <Content Include="BasarisizGiris.aspx" />
+    <Content Include="Giris.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasariliGiris.aspx.cs">
+      <DependentUpon>BasariliGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasariliGiris.aspx.designer.cs">
+      <DependentUpon>BasariliGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasarisizGiris.aspx.cs">
+      <DependentUpon>BasarisizGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasarisizGiris.aspx.designer.cs">
+      <DependentUpon>BasarisizGiris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.aspx.cs">
+      <DependentUpon>Giris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Giris.aspx.designer.cs">
+      <DependentUpon>Giris.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
